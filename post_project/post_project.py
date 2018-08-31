@@ -50,10 +50,6 @@ class post_module(IconScoreBase):
     def usetoken_voltime(self, usetoken: int) -> str:
         self.__token[str(self.msg.sender)] -= usetoken * 2
 
-    @external(readonly=True)
-    def token_check(self) -> str:
-        return self.__token[str(self.msg.sender)] / 2
-
 
 def fallback(self) -> None:
     pass

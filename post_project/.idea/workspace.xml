@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="116308a2-9041-4346-ba9a-b932a00ef582" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/post_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tbears_server_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tbears_server_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tbears_cli_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tbears_cli_config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
             <state relative-caret-position="195">
               <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
-                <marker date="1535706270000" expanded="true" signature="769:775" ph="..." />
+                <marker date="1535719614000" expanded="true" signature="769:775" ph="..." />
               </folding>
             </state>
           </provider>
@@ -154,7 +153,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <marker date="1535706270000" expanded="true" signature="769:775" ph="..." />
+            <marker date="1535719614000" expanded="true" signature="769:775" ph="..." />
           </folding>
         </state>
       </provider>

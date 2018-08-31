@@ -9,16 +9,11 @@
         "contentType": "tbears",
         "mode": "install",
         "scoreParams": {
-            "proposal_description": "What do you think of this issue?",
-            "proposal_candidate":{
-              "0": "A is the best.",
-              "1": "B is the best.",
-              "2": "C is the best."
-            },
-            "voters":{
+            "workers":{
               "0": "hx2000000000000000000000000000000000000000",
               "1": "hx3000000000000000000000000000000000000000",
-              "2": "hx4000000000000000000000000000000000000000"
+              "2": "hx4000000000000000000000000000000000000000",
+              "3": "hx5000000000000000000000000000000000000000"
               }
             }
     },
