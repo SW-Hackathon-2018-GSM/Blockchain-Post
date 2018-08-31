@@ -30,23 +30,23 @@ class post_module(IconScoreBase):
 
     @external(readonly=True)
     def transaction_start(self) -> str:
-        print(f'Hello, world!')
-        return "Hello"
+        if self.__token[str(self.msg.sender)] % 2 == 0:
+            self.__token[str(self.msg.sender)] += 1
+            # DB가 필요하다
+        else:
+            return 0
 
     @external(readonly=True)
     def transaction_end(self) -> str:
-
-        return
+        self.__token[str(self.msg.sender)] += 1
 
     @external(readonly=True)
     def usetoken_money(self) -> str:
-        print(f'Hello, world!')
-        return "Hello"
+        self.__token[str(self.msg.sender)] -= usetoken * 2
 
     @external(readonly=True)
     def usetoken_voltime(self) -> str:
-        print(f'Hello, world!')
-        return "Hello"
+        self.__token[str(self.msg.sender)] -= usetoken * 2
 
     @external(readonly=True)
     def token_check(self) -> str:
