@@ -37,8 +37,8 @@ class post_module(IconScoreBase):
             return 0
 
     @external(readonly=True)
-    def transaction_end(self) -> str:
-        self.__token[str(self.msg.sender)] += 1
+    def transaction_end(self, wid) -> str:
+        self.__token[str(wid)] += 1
 
     @external(readonly=True)
     def usetoken_money(self, usetoken) -> str:
