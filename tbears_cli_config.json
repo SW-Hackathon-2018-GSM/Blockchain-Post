@@ -1,0 +1,27 @@
+{
+    "uri": "http://127.0.0.1:9000/api/v3",
+    "nid": "0x3",
+    "keyStore": null,
+    "from": "hxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "to": "cx0000000000000000000000000000000000000000",
+    "stepLimit": "0x300000",
+    "deploy": {
+        "contentType": "tbears",
+        "mode": "install",
+        "scoreParams": {
+            "proposal_description": "What do you think of this issue?",
+            "proposal_candidate":{
+              "0": "A is the best.",
+              "1": "B is the best.",
+              "2": "C is the best."
+            },
+            "voters":{
+              "0": "hx2000000000000000000000000000000000000000",
+              "1": "hx3000000000000000000000000000000000000000",
+              "2": "hx4000000000000000000000000000000000000000"
+              }
+            }
+    },
+    "txresult": {},
+    "transfer": {}
+}

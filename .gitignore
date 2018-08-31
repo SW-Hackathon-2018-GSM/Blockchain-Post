@@ -1,0 +1,17 @@
+/.score
+/.statedb
+/bin
+/include
+/lib
+/project
+/sample_voting
+/tbears
+.DS_Store
+.Python
+earlgrey-0.0.4-py3-none-any.whl
+iconcommons-1.0.2-py3-none-any.whl
+iconrpcserver-1.0.2-py3-none-any.whl
+iconservice-1.0.2-py3-none-any.whl
+pip-selfcheck.json
+tbears-1.0.2-py3-none-any.whl
+tbears.log
