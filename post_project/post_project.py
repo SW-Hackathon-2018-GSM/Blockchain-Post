@@ -31,11 +31,11 @@ class post_module(IconScoreBase):
     def token_add(self) -> None:
 
     @external(readonly=True)
-    def transaction_end(self, wid) -> str:
+    def transaction_end(self, wid: str) -> None:
         self.__token[str(wid)] += 1
 
     @external(readonly=True)
-    def transaction_start(self) -> str:
+    def transaction_start(self) -> int:
         if self.__token[str(self.msg.sender)] % 2 == 0:
             self.__token[str(self.msg.sender)] += 1
             return 1
@@ -43,13 +43,13 @@ class post_module(IconScoreBase):
             return 0
 
     @external(readonly=True)
-    def usetoken_money(self, usetoken: int) -> str:
+    def usetoken_money(self, usetoken: int) -> None:
         self.__token[str(self.msg.sender)] -= usetoken * 2
 
     @external(readonly=True)
-    def usetoken_voltime(self, usetoken: int) -> str:
+    def usetoken_voltime(self, usetoken: int) -> None:
         self.__token[str(self.msg.sender)] -= usetoken * 2
 
 
-def fallback(self) -> None:
-    pass
+    def fallback(self) -> None:
+        pass
