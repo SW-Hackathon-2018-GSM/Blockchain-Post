@@ -41,13 +41,21 @@ class post_module(IconScoreBase):
         self.__token[str(self.msg.sender)] += 1
 
     @external(readonly=True)
-    def usetoken_money(self) -> str:
+    def usetoken_money(self, usetoken) -> str:
         self.__token[str(self.msg.sender)] -= usetoken * 2
 
     @external(readonly=True)
-    def usetoken_voltime(self) -> str:
+    def usetoken_voltime(self, usetoken) -> str:
         self.__token[str(self.msg.sender)] -= usetoken * 2
 
     @external(readonly=True)
     def token_check(self) -> str:
         return self.__token[str(self.msg.sender)] / 2
+
+
+def fallback(self) -> None:
+    """SCORE 배포를 위한 형식을 위해 존재하는 함수
+
+    이 SCORE는 실제 icx코인을 사용하지 않기 때문에 이 함수는 실제 기능하지않는다.
+    """
+    pass

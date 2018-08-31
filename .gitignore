@@ -4,7 +4,9 @@
 /include
 /lib
 /project
+/post_project/.idea
 /sample_voting
+/share
 /tbears
 .DS_Store
 .Python
@@ -15,3 +17,4 @@ iconservice-1.0.2-py3-none-any.whl
 pip-selfcheck.json
 tbears-1.0.2-py3-none-any.whl
 tbears.log
+post_project/.idea/workspace.xml
