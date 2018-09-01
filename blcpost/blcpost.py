@@ -1,7 +1,7 @@
 from iconservice import *
 
 
-class post_module(IconScoreBase):
+class postmodule(IconScoreBase):
 
     __STORAGE = "storage"
     __WORKERS = "workers"
